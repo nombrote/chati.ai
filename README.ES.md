@@ -5,27 +5,30 @@
 <h1 align="center">Chati.AI</h1>
 
 <p align="center">
-  <b>Una asistente con cara, voz, teléfono y manos. En tu PC.</b>
+  <b>Un agente de IA con cara, voz, teléfono y manos. En tu PC.</b>
 </p>
 
 <p align="center">
-  Habla contigo por videollamada · Te ve y te escucha · Navega, programa y maneja tus archivos<br>
-  Tiene su propio WhatsApp y su propio número · Modelos locales o en la nube, gratis · Sin censura añadida
+  Hace cosas por ti: navega, programa, maneja tus archivos y ejecuta comandos · Habla contigo por videollamada · Te ve y te escucha<br>
+  Tiene su propio WhatsApp y su propio número · Sin censura añadida<br>
+  Modelos en tu PC o en la nube, incluso varias cuentas gratuitas encadenadas: cuando una gasta sus créditos, salta a la siguiente
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/⬇_Descargar-última_versión-7c4dff?style=for-the-badge" alt="Descargar"></a>
+  <a href="https://github.com/nombrote/chati.ai/releases/latest"><img src="https://img.shields.io/badge/⬇_Descargar-última_versión-7c4dff?style=for-the-badge" alt="Descargar"></a>
   &nbsp;
   <img src="https://img.shields.io/badge/Windows-10_·_11-0078d4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
   &nbsp;
   <img src="https://img.shields.io/badge/Instalación-abrir_y_funcionar-2ea44f?style=for-the-badge" alt="Abrir y funcionar">
+  &nbsp;
+  <a href="README.md"><img src="https://img.shields.io/badge/🇬🇧_Read_it-in_English-e0e0e0?style=for-the-badge" alt="In English"></a>
 </p>
 
 <p align="center">
   <img src="docs/captura_principal.png" width="860" alt="Chati.AI: videollamada a la izquierda, chat a la derecha">
 </p>
 
-<p align="center"><i>No es un chat con una foto al lado: es alguien que te mira, te contesta, se ríe y, si te pasas, se enfada.</i></p>
+<p align="center"><i>No es un chat con una foto al lado. Es un agente que trabaja por ti, y además te mira, te contesta, se ríe y, si te pasas, se enfada.</i></p>
 
 ---
 
@@ -33,12 +36,14 @@
 
 | | |
 |---|---|
+| 🧰 **Es un agente** | Navega, lee y escribe archivos, ejecuta comandos, hace planes, usa habilidades y servidores MCP. Con tarjetas de permiso o en modo automático. |
 | 🎭 **Tiene cara** | Vídeo real encadenado por emociones. Sonríe, se sorprende, te guiña, se enfada. Cuando no escribes, sigue viva. |
 | 🎙️ **Tiene voz y oído** | Habla y te escucha en tu PC, sin internet. La puedes interrumpir hablando. |
+| 👀 **Te ve** | Compártele la webcam o la pantalla y te comenta lo que ve. Videollamadas con ella desde la ventana, por WhatsApp o por Meet. |
 | 📱 **Tiene teléfono** | Su propia cuenta de WhatsApp, su número con SIM, videollamadas por Meet, Telegram y correo. |
-| 🧰 **Tiene manos** | Navega, lee y escribe archivos, ejecuta comandos, hace planes, usa habilidades y servidores MCP. |
 | 🖥️ **Local o nube** | Ollama, LM Studio, llama.cpp, tu cuenta de ChatGPT, Gemini, Groq, Cerebras, Mistral, OpenRouter… |
 | 🔁 **Gratis, todo el día** | Varias cuentas gratuitas: cuando una se agota, salta sola a la siguiente. |
+| 🔀 **Router de modelos** | Un modelo gratuito para charlar y otro, de pago o gratuito, para programar. Cambia sola según lo que pidas. |
 | 🔓 **Sin censura añadida** | Lo que dice depende solo del modelo y la personalidad que elijas. No hay nadie en medio. |
 | ⚡ **Abrir y funcionar** | Un instalador con asistente. Todo lo que necesita va dentro. |
 
@@ -67,8 +72,8 @@
     </td>
     <td align="center">
       <img src="docs/programador.png" alt="Modo programador en morado"><br>
-      <b>Un programador de guardia</b><br>
-      <sub>Un segundo modelo solo para código. Entra cuando toca y vuelve ella cuando cambias de tema.</sub>
+      <b>Un router que elige el modelo</b><br>
+      <sub>Uno barato o gratuito para charlar y otro potente para programar. Entra solo cuando toca código y vuelve ella cuando cambias de tema.</sub>
     </td>
   </tr>
   <tr>
@@ -89,7 +94,7 @@
 
 ## Instalar: abrir y funcionar
 
-1. **Descarga** el instalador de la [última versión](../../releases/latest).
+1. **Descarga** el instalador de la [última versión](https://github.com/nombrote/chati.ai/releases/latest).
 2. **Sigue el asistente**: carpeta, personaje y voz. No hay que instalar nada más.
 3. **Elige un modelo** en el botón de la barra de arriba:
    - **Gratis y en un minuto**: *Gemini* o *Groq*, pega una clave gratuita y listo.
@@ -166,9 +171,10 @@ persona más.
   o una carpeta. Valen las de Claude, Codex, Cursor y skills.sh. O pídele que te cree una nueva: trae
   una habilidad para crear habilidades.
 - **Servidores MCP**: añade cualquier servidor por URL y enciende o apaga sus herramientas con un clic.
-- **Programador**: asigna un segundo modelo solo para código. Cuando lo que pides toca código pasa a
-  él sola, y vuelve cuando cambias de tema. Lo suyo sale en morado para saber quién habla. También a
-  mano con `/programa` y `/chati`.
+- **Router de modelos**: no hace falta pagar un modelo caro para todo. Pon uno gratuito o ligero
+  para conversar y otro más potente, de pago o gratuito, para programar. Un router decide en cada
+  mensaje: cuando lo que pides toca código pasa al programador sola, y vuelve cuando cambias de tema.
+  Lo suyo sale en morado para saber quién habla. También a mano con `/programa` y `/chati`.
 - **Recordatorios y tareas**: «avísame cada 30 minutos de beber agua», «mañana a las 9 dime…»,
   «cuéntame una historia seguido».
 
@@ -249,24 +255,6 @@ persona más.
 
 ---
 
-<details>
-<summary><b>🇬🇧 In English</b></summary>
-<br>
-
-**Chati.AI** is a Windows desktop AI companion and agent in one window:
-
-- **A video avatar** that reacts with gestures, talks (Piper) and listens (Whisper), all offline.
-- **Its own phone line**: a full WhatsApp account (chats, voice and video calls), Google Meet video
-  calls, a real phone number through a USB modem, Telegram and email.
-- **A real agent**: web browsing, files, PowerShell, plans, long-term memory, **MCP servers** and
-  **skills imported straight from GitHub** (Claude / Codex / Cursor format).
-- **Local or cloud**: Ollama, LM Studio, llama.cpp, your ChatGPT account, Gemini, Groq, Cerebras,
-  Mistral, OpenRouter…
-- **Multiple free accounts with automatic switching** when one runs out of quota.
-- **A coding sub-agent** on a second model that takes over when you talk about code.
-- **No added censorship**: what it says depends only on the model and persona you choose. 18+.
-- **Easy setup**: a one-minute installer, then just open it and talk.
-
-The interface is in Spanish. [Download the latest release](../../releases/latest).
-
-</details>
+<p align="center">
+  <sub>Hecho con cariño y demasiadas noches sin dormir. Si te alegra el día, <a href="https://paypal.me/nombrote">invítame a un café</a> ☕</sub>
+</p>
