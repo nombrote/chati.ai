@@ -56,7 +56,7 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="docs/gestos.gif" alt="Character gestures"><br>
+      <img src="docs/gestos.png" alt="Character gestures"><br>
       <b>She reacts to what she says</b><br>
       <sub>Video clips by emotion, with seamless cross-fades. If you go quiet for a while, she speaks first.</sub>
     </td>

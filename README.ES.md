@@ -54,7 +54,7 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="docs/gestos.gif" alt="Gestos del personaje"><br>
+      <img src="docs/gestos.png" alt="Gestos del personaje"><br>
       <b>Reacciona a lo que dice</b><br>
       <sub>Clips de vídeo por emoción, con fundidos que no se notan. Si llevas rato callado, te habla ella.</sub>
     </td>
