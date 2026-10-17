@@ -119,6 +119,9 @@ Type `/help` in the chat to see the commands.
 - **Video characters**: each character is a folder with its videos and cut points. Add your own and
   they show up in *Settings › Appearance*.
 - **Light wave**: an abstract, discreet avatar for when you don't want a face.
+
+  <img src="docs/aspecto.png" width="480" alt="Appearance picker: light wave and characters">
+
 - **Two moods**: happy or angry. Offend her and even her idle gestures change, and it lasts.
 - **Built-in clip editor**: mark where each gesture starts and ends and tag it. The model learns the
   new gestures on its own.
@@ -212,7 +215,10 @@ She is not a chat locked inside a window: she can have her own accounts and talk
   and order them. When one runs out of quota she notices, switches to the next, tells you in the
   chat and goes back to the first when it recovers. Stack free tiers and you have big models all day.
 - **Reasoning effort** of your choice (off, auto, low, medium, high) on thinking models.
-- You always see how full the model's memory is and how fast it's writing.
+- You always see how full the model's memory is and how fast it's writing. The token counter
+  breaks the context down and, with your ChatGPT account, shows your plan's usage limits.
+
+  <img src="docs/consumo.png" width="340" alt="Context breakdown and usage limits">
 
 </details>
 

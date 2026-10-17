@@ -117,6 +117,9 @@ Escribe `/help` en el chat para ver los comandos.
 - **Personajes en vídeo**: cada personaje es una carpeta con sus vídeos y sus cortes. Añade los
   tuyos y aparecen solos en *Configuración › Aspecto*.
 - **Onda de luz**: un avatar abstracto y discreto, para cuando no quieres cara.
+
+  <img src="docs/aspecto.png" width="480" alt="Selector de aspecto: onda de luz y personajes">
+
 - **Dos humores**: contenta o enfadada. Si la ofendes, hasta sus gestos de reposo cambian, y le dura.
 - **Editor de clips** integrado: marca dónde empieza y acaba cada gesto y etiquétalo. El modelo se
   entera solo de los gestos nuevos.
@@ -208,7 +211,10 @@ persona más.
   y ordénalas. Cuando una agota su cupo, lo detecta, salta a la siguiente, te lo dice en el chat y
   vuelve a la primera cuando se recupera. Juntando capas gratuitas tienes modelos grandes todo el día.
 - **Esfuerzo de razonamiento** a elegir (no, auto, bajo, medio, alto) en los modelos que razonan.
-- Ves en todo momento cuánta memoria lleva ocupada el modelo y a qué velocidad escribe.
+- Ves en todo momento cuánta memoria lleva ocupada el modelo y a qué velocidad escribe. En el
+  contador de tokens tienes el reparto del contexto y, con tu cuenta de ChatGPT, los límites de uso del plan.
+
+  <img src="docs/consumo.png" width="340" alt="Reparto del contexto y límites de uso">
 
 </details>
 
