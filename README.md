@@ -30,7 +30,13 @@
 
 <p align="center"><i>Not a chat with a picture next to it. An agent that works for you, and who also looks at you, answers, laughs and, if you cross the line, gets mad.</i></p>
 
-> The interface is currently in Spanish. The models answer in whatever language you talk to them.
+<p align="center">
+  🌍 <b>Multilingual</b>: she talks to you in your language · 🎭 <b>Several avatars</b>, male and female, with more on the way, some of them uncensored
+</p>
+
+<p align="center">
+  <img src="docs/aspecto.png" width="560" alt="Appearance picker: light wave, Lena, Marc and more">
+</p>
 
 ---
 
@@ -121,9 +127,6 @@ Type `/help` in the chat to see the commands.
 - **Light wave**: an abstract, discreet avatar for when you don't want a face.
 - **Several avatars to choose from**: Lena, Marc and the light wave, with more coming soon,
   including some uncensored ones.
-
-  <img src="docs/aspecto.png" width="480" alt="Appearance picker: light wave and characters">
-
 - **Two moods**: happy or angry. Offend her and even her idle gestures change, and it lasts.
 - **Built-in clip editor**: mark where each gesture starts and ends and tag it. The model learns the
   new gestures on its own.

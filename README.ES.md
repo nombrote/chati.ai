@@ -30,6 +30,14 @@
 
 <p align="center"><i>No es un chat con una foto al lado. Es un agente que trabaja por ti, y además te mira, te contesta, se ríe y, si te pasas, se enfada.</i></p>
 
+<p align="center">
+  🌍 <b>Multilingüe</b>: te habla en tu idioma · 🎭 <b>Varios avatares</b>, masculinos y femeninos, y pronto más, algunos sin censura
+</p>
+
+<p align="center">
+  <img src="docs/aspecto.png" width="560" alt="Selector de aspecto: onda de luz, Lena, Marc y más">
+</p>
+
 ---
 
 ## En 30 segundos
@@ -119,9 +127,6 @@ Escribe `/help` en el chat para ver los comandos.
 - **Onda de luz**: un avatar abstracto y discreto, para cuando no quieres cara.
 - **Varios avatares para elegir**: Lena, Marc y la onda de luz, y pronto más, incluidos algunos
   sin censura.
-
-  <img src="docs/aspecto.png" width="480" alt="Selector de aspecto: onda de luz y personajes">
-
 - **Dos humores**: contenta o enfadada. Si la ofendes, hasta sus gestos de reposo cambian, y le dura.
 - **Editor de clips** integrado: marca dónde empieza y acaba cada gesto y etiquétalo. El modelo se
   entera solo de los gestos nuevos.
