@@ -119,6 +119,8 @@ Type `/help` in the chat to see the commands.
 - **Video characters**: each character is a folder with its videos and cut points. Add your own and
   they show up in *Settings › Appearance*.
 - **Light wave**: an abstract, discreet avatar for when you don't want a face.
+- **Several avatars to choose from**: Lena, Marc and the light wave, with more coming soon,
+  including some uncensored ones.
 
   <img src="docs/aspecto.png" width="480" alt="Appearance picker: light wave and characters">
 

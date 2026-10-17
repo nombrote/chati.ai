@@ -117,6 +117,8 @@ Escribe `/help` en el chat para ver los comandos.
 - **Personajes en vídeo**: cada personaje es una carpeta con sus vídeos y sus cortes. Añade los
   tuyos y aparecen solos en *Configuración › Aspecto*.
 - **Onda de luz**: un avatar abstracto y discreto, para cuando no quieres cara.
+- **Varios avatares para elegir**: Lena, Marc y la onda de luz, y pronto más, incluidos algunos
+  sin censura.
 
   <img src="docs/aspecto.png" width="480" alt="Selector de aspecto: onda de luz y personajes">
 
