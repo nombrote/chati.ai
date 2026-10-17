@@ -142,8 +142,9 @@ Escribe `/help` en el chat para ver los comandos.
 - **Tu webcam o tu pantalla**, compartidas con ella. Un borde verde te avisa de que está mirando.
 - **Vigilar la pantalla**: «avísame cuando acabe de compilar».
 - **Fotos y archivos**: arrastra imágenes, PDF, Word, Excel o CSV al chat.
-- **Voz**: habla con voces neuronales Piper (idioma, voz y velocidad a elegir) y te escucha con
-  Whisper. Las dos cosas en tu PC, sin internet. Puedes interrumpirla hablando y mandar sin pulsar Enter.
+- **Voz en tiempo real**: habla con voces neuronales (idioma, voz y velocidad a elegir) y te escucha
+  mientras hablas. Todo en tu PC, sin internet y sin instalar nada: va integrado y funciona en el
+  procesador o en la tarjeta gráfica, a elegir. Puedes interrumpirla hablando y mandar sin pulsar Enter.
 - **Llamadas y videollamadas** de voz con ella, desde la propia ventana.
 
 </details>

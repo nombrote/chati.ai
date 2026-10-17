@@ -142,9 +142,9 @@ Type `/help` in the chat to see the commands.
 - **Your webcam or your screen**, shared with her. A green border tells you she's watching.
 - **Screen watching**: "tell me when the build finishes".
 - **Photos and files**: drag images, PDF, Word, Excel or CSV into the chat.
-- **Voice**: she speaks with Piper neural voices (language, voice and speed of your choice) and
-  listens with Whisper. Both on your PC, offline. You can interrupt her by talking and send without
-  pressing Enter.
+- **Real-time voice**: she speaks with neural voices (language, voice and speed of your choice) and
+  listens while you talk. All on your PC, offline and with nothing to install: it comes built in and
+  runs on the CPU or the graphics card, your choice. You can interrupt her by talking and send without pressing Enter.
 - **Voice and video calls** with her, right from the window.
 
 </details>
