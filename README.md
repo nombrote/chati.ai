@@ -124,8 +124,15 @@
 
 ## Install
 
-1. **Download** the version for your system (**Windows**, **Linux** or **macOS**) from the
-   [latest release](https://github.com/nombrote/chati.ai/releases/latest) and open it.
+| 🪟 Windows | 🐧 Linux | 🍎 macOS (Apple Silicon) |
+|:-:|:-:|:-:|
+| [**Chati.AI-win-x64.zip**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-win-x64.zip) | [**Chati.AI-linux-x64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-linux-x64.tar.gz) | [**Chati.AI-osx-arm64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-osx-arm64.tar.gz) |
+| Unzip it and open `ChatiAI.exe` | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`./Chati.AI-linux-x64/ChatiAI` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
+
+<sub>All versions are also on the [releases page](https://github.com/nombrote/chati.ai/releases/latest). The app is not signed yet: if Windows shows a SmartScreen warning, click *More info › Run anyway*; if macOS won't open it, run `xattr -dr com.apple.quarantine Chati.AI-osx-arm64` once.</sub>
+
+1. **Download** the file for your system and open it as shown above. Nothing to install: everything she
+   needs is inside.
 2. **The wizard sets everything up** the first time you open her:
    - **Language**: Spanish, English, French, German, Portuguese, Russian, Polish or Chinese.
    - **Her brain**:
@@ -142,9 +149,7 @@ You can open the wizard again at any time from the menu. Prefer to set things up
 button in the top bar: free keys for *Gemini* or *Groq*, your ChatGPT account, or your own
 [Ollama](https://ollama.com), [LM Studio](https://lmstudio.ai) or llama.cpp, which she finds by herself.
 
-> **Requirements:** Windows 10 or 11, Linux or macOS, 64-bit. For local models, a graphics card with at least 5 GB
-> (9 GB for the 12B model); the smallest ones can also run on the processor if you have enough RAM.
-> With cloud models any PC will do.
+> **Requirements:** Windows 10 or 11 (64-bit), Linux (64-bit) or macOS on Apple Silicon (M1 or newer). For local models, a graphics card with at least 5 GB (9 GB for the 12B model); the smallest ones can also run on the processor if you have enough RAM. With cloud models any PC will do.
 
 ---
 

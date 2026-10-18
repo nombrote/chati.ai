@@ -124,8 +124,15 @@
 
 ## Instalar
 
-1. **Descarga** la versión para tu sistema (**Windows**, **Linux** o **macOS**) de la
-   [última versión](https://github.com/nombrote/chati.ai/releases/latest) y ábrela.
+| 🪟 Windows | 🐧 Linux | 🍎 macOS (Apple Silicon) |
+|:-:|:-:|:-:|
+| [**Chati.AI-win-x64.zip**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-win-x64.zip) | [**Chati.AI-linux-x64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-linux-x64.tar.gz) | [**Chati.AI-osx-arm64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-osx-arm64.tar.gz) |
+| Descomprímelo y abre `ChatiAI.exe` | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`./Chati.AI-linux-x64/ChatiAI` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
+
+<sub>Todas las versiones están también en la [página de descargas](https://github.com/nombrote/chati.ai/releases/latest). La aplicación todavía no va firmada: si Windows muestra el aviso de SmartScreen, pulsa *Más información › Ejecutar de todas formas*; si macOS no la deja abrir, ejecuta una vez `xattr -dr com.apple.quarantine Chati.AI-osx-arm64`.</sub>
+
+1. **Descarga** el archivo de tu sistema y ábrelo como pone arriba. No hay que instalar nada: todo lo
+   que necesita va dentro.
 2. **El asistente lo prepara todo** la primera vez que la abres:
    - **Idioma**: español, inglés, francés, alemán, portugués, ruso, polaco o chino.
    - **Su cerebro**:
@@ -142,9 +149,7 @@ Puedes volver a abrir el asistente cuando quieras desde el menú. ¿Prefieres co
 botón de modelos de la barra de arriba: claves gratuitas de *Gemini* o *Groq*, tu cuenta de ChatGPT, o
 tu propio [Ollama](https://ollama.com), [LM Studio](https://lmstudio.ai) o llama.cpp, que encuentra sola.
 
-> **Requisitos:** Windows 10 u 11, Linux o macOS, de 64 bits. Para modelos locales, una tarjeta gráfica con 5 GB como
-> mínimo (9 GB para el modelo de 12 B); los más pequeños también van en el procesador si tienes RAM de
-> sobra. Con modelos en la nube vale cualquier PC.
+> **Requisitos:** Windows 10 u 11 (64 bits), Linux (64 bits) o macOS con Apple Silicon (M1 o posterior). Para modelos locales, una tarjeta gráfica con 5 GB como mínimo (9 GB para el modelo de 12 B); los más pequeños también van en el procesador si tienes RAM de sobra. Con modelos en la nube vale cualquier PC.
 
 ---
 
