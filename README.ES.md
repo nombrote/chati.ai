@@ -19,7 +19,7 @@
   &nbsp;
   <a href="https://youtu.be/vuDk57mIgTc"><img src="https://img.shields.io/badge/▶_Mírala-en_acción-ff0033?style=for-the-badge" alt="Ver el vídeo"></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Windows-10_·_11-0078d4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/Windows_·_Linux_·_macOS-64_bits-0078d4?style=for-the-badge" alt="Windows, Linux y macOS">
   &nbsp;
   <img src="https://img.shields.io/badge/Instalación-con_asistente-2ea44f?style=for-the-badge" alt="Instalación con asistente">
   &nbsp;
@@ -124,7 +124,8 @@
 
 ## Instalar
 
-1. **Descarga** el instalador de la [última versión](https://github.com/nombrote/chati.ai/releases/latest) y ábrelo.
+1. **Descarga** la versión para tu sistema (**Windows**, **Linux** o **macOS**) de la
+   [última versión](https://github.com/nombrote/chati.ai/releases/latest) y ábrela.
 2. **El asistente lo prepara todo** la primera vez que la abres:
    - **Idioma**: español, inglés, francés, alemán, portugués, ruso, polaco o chino.
    - **Su cerebro**:
@@ -141,7 +142,7 @@ Puedes volver a abrir el asistente cuando quieras desde el menú. ¿Prefieres co
 botón de modelos de la barra de arriba: claves gratuitas de *Gemini* o *Groq*, tu cuenta de ChatGPT, o
 tu propio [Ollama](https://ollama.com), [LM Studio](https://lmstudio.ai) o llama.cpp, que encuentra sola.
 
-> **Requisitos:** Windows 10 u 11 de 64 bits. Para modelos locales, una tarjeta gráfica con 5 GB como
+> **Requisitos:** Windows 10 u 11, Linux o macOS, de 64 bits. Para modelos locales, una tarjeta gráfica con 5 GB como
 > mínimo (9 GB para el modelo de 12 B); los más pequeños también van en el procesador si tienes RAM de
 > sobra. Con modelos en la nube vale cualquier PC.
 
@@ -191,7 +192,7 @@ persona más.
   Chatea, manda fotos y notas de voz y **coge llamadas y videollamadas**, poniendo su cara y su voz.
 - **Videollamadas por Google Meet**: entra con su propia cuenta de Google y conversa por vídeo en
   tiempo real: te ve, te oye y te contesta hablando.
-- **Número de teléfono propio**: con un **módem USB y una SIM**, lee los SMS y **coge las llamadas**
+- **Número de teléfono propio** (solo en Windows): con un **módem USB y una SIM**, lee los SMS y **coge las llamadas**
   a su número. Por seguridad, nunca envía SMS ni llama por su cuenta.
 - **Telegram**: bot propio. Te manda texto, fotos, vídeos de sus gestos y notas de voz. Con el modo
   *Ausente* la llevas en el móvil, y las tarjetas de permiso te llegan ahí, con PIN para lo peligroso.
@@ -207,7 +208,8 @@ persona más.
 
 - **Internet** con un navegador real: buscar, leer páginas, hacer clic, rellenar, descargar. Las
   páginas largas las resume un subagente investigador para no llenar la memoria del modelo.
-- **Archivos y comandos**: leer, escribir y editar archivos; ejecutar PowerShell.
+- **Archivos y comandos**: leer, escribir y editar archivos; ejecutar comandos (PowerShell en Windows,
+  bash en Linux y macOS).
 - **Planes**: para encargos largos hace un plan y lo va tachando paso a paso.
 - **Habilidades (skills)**: impórtalas **desde GitHub** (`usuario/repositorio`), de un `.zip`, un `.md`
   o una carpeta. Valen las de Claude, Codex, Cursor y skills.sh. O pídele que te cree una nueva: trae
@@ -267,7 +269,7 @@ persona más.
 - **Personalidades editables**: cambia de personaje desde la cabecera del chat o escribe la tuya en
   un `.md`. Hasta las instrucciones internas de sus subagentes se pueden reescribir.
 - Histórico de conversaciones, varias pestañas, editar, borrar o repetir cualquier mensaje.
-- Icono junto al reloj y arranque con Windows.
+- Icono junto al reloj y arranque al iniciar sesión.
 
 </details>
 

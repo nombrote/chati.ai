@@ -19,7 +19,7 @@
   &nbsp;
   <a href="https://youtu.be/vuDk57mIgTc"><img src="https://img.shields.io/badge/▶_Watch-her_in_action-ff0033?style=for-the-badge" alt="Watch the video"></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Windows-10_·_11-0078d4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/Windows_·_Linux_·_macOS-64--bit-0078d4?style=for-the-badge" alt="Windows, Linux and macOS">
   &nbsp;
   <img src="https://img.shields.io/badge/Setup-guided_wizard-2ea44f?style=for-the-badge" alt="Guided setup">
   &nbsp;
@@ -124,7 +124,8 @@
 
 ## Install
 
-1. **Download** the installer from the [latest release](https://github.com/nombrote/chati.ai/releases/latest) and run it.
+1. **Download** the version for your system (**Windows**, **Linux** or **macOS**) from the
+   [latest release](https://github.com/nombrote/chati.ai/releases/latest) and open it.
 2. **The wizard sets everything up** the first time you open her:
    - **Language**: Spanish, English, French, German, Portuguese, Russian, Polish or Chinese.
    - **Her brain**:
@@ -141,7 +142,7 @@ You can open the wizard again at any time from the menu. Prefer to set things up
 button in the top bar: free keys for *Gemini* or *Groq*, your ChatGPT account, or your own
 [Ollama](https://ollama.com), [LM Studio](https://lmstudio.ai) or llama.cpp, which she finds by herself.
 
-> **Requirements:** Windows 10 or 11, 64-bit. For local models, a graphics card with at least 5 GB
+> **Requirements:** Windows 10 or 11, Linux or macOS, 64-bit. For local models, a graphics card with at least 5 GB
 > (9 GB for the 12B model); the smallest ones can also run on the processor if you have enough RAM.
 > With cloud models any PC will do.
 
@@ -190,7 +191,7 @@ She is not a chat locked inside a window: she can have her own accounts and talk
   sends photos and voice notes and **answers voice and video calls**, with her face and her voice.
 - **Google Meet video calls**: she joins with her own Google account and talks on video in real time:
   she sees you, hears you and answers out loud.
-- **Her own phone number**: with a **USB modem and a SIM card**, she reads the SMS she receives and
+- **Her own phone number** (Windows only): with a **USB modem and a SIM card**, she reads the SMS she receives and
   **picks up calls** to her number. For safety, she never sends SMS or makes calls on her own.
 - **Telegram**: her own bot. She sends text, photos, videos of her gestures and voice notes. With
   *Away* mode you carry her on your phone, and permission cards reach you there, with a PIN for
@@ -207,7 +208,8 @@ She is not a chat locked inside a window: she can have her own accounts and talk
 
 - **Internet** with a real browser: search, read pages, click, fill in forms, download. Long pages
   are summarized by a researcher sub-agent so they don't flood the model's memory.
-- **Files and commands**: read, write and edit files; run PowerShell.
+- **Files and commands**: read, write and edit files; run commands (PowerShell on Windows, bash on
+  Linux and macOS).
 - **Plans**: for long tasks she writes a plan and ticks it off step by step.
 - **Skills**: import them **straight from GitHub** (`user/repo`), from a `.zip`, a `.md` or a folder.
   Claude, Codex, Cursor and skills.sh formats all work. Or ask her to make a new one: she ships with a
@@ -269,7 +271,7 @@ She is not a chat locked inside a window: she can have her own accounts and talk
 - **Editable personas**: switch characters from the chat header or write your own in a `.md` file.
   Even the internal instructions of her sub-agents can be rewritten.
 - Conversation history, several tabs, edit, delete or regenerate any message.
-- Tray icon and start with Windows.
+- Tray icon and start when you log in.
 
 </details>
 
