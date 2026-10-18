@@ -1,0 +1,112 @@
+Chati.AI — Freeware License
+Copyright (c) 2026 nombrote. All rights reserved.
+
+(Versión en español más abajo. If the two versions differ, the English one prevails.)
+
+1. WHAT YOU CAN DO
+   Chati.AI ("the Software") is free. You may download, install and use it, at no cost,
+   for personal or professional purposes, on as many of your own computers as you like.
+
+2. WHAT YOU CANNOT DO
+   Unless you have written permission from the author, you may not:
+   a) sell, rent, lease or sublicense the Software, or charge for it in any way;
+   b) redistribute the Software or host it for download anywhere other than the official
+      page (https://github.com/nombrote/chati.ai/releases); linking to that page is fine;
+   c) modify, decompile, disassemble or reverse engineer the Software, except where the law,
+      or the license of a third-party component, expressly allows it;
+   d) remove or alter copyright notices, this license or the third-party notices;
+   e) extract the characters, videos, images, voices or texts that come with the Software
+      to use them outside the Software.
+
+3. THIRD-PARTY COMPONENTS
+   The Software includes third-party components that are licensed under their own terms,
+   listed in THIRD-PARTY-NOTICES.md. Those licenses apply to those components, and nothing in
+   this license limits the rights they give you.
+   Models, voices and programs that the Software downloads at your request (for example
+   Ollama and AI models) are not part of the Software and have their own licenses.
+
+4. ONLINE SERVICES AND ACCOUNTS
+   The Software can connect to services you choose (AI providers, WhatsApp, Google, Telegram,
+   email and others). You are responsible for having the right to use those accounts and for
+   complying with each service's terms. The author is not affiliated with those services.
+
+5. CONTENT AND AGE
+   The Software does not add content filters. Depending on the model and character you choose,
+   it may produce adult content. It is intended for adults (18+) only. You are solely
+   responsible for how you use it and for anything it does or says on your behalf, including
+   actions on your computer that you allow it to take.
+
+6. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   NON-INFRINGEMENT. AI output may be wrong, offensive or harmful.
+
+7. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHOR SHALL NOT BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY (INCLUDING LOSS OF DATA, ACCOUNTS OR PROFITS) ARISING FROM THE
+   USE OF, OR INABILITY TO USE, THE SOFTWARE.
+
+8. TERMINATION
+   This license ends automatically if you break its terms. You must then stop using the
+   Software and delete your copies.
+
+9. GENERAL
+   The author may publish new versions of the Software under different terms; this license
+   keeps applying to the versions you received under it. This license is governed by
+   Spanish law.
+
+------------------------------------------------------------------------------------------
+
+Chati.AI — Licencia de uso gratuito
+Copyright (c) 2026 nombrote. Todos los derechos reservados.
+
+1. LO QUE PUEDES HACER
+   Chati.AI («el Software») es gratuito. Puedes descargarlo, instalarlo y usarlo sin coste,
+   para uso personal o profesional, en todos tus ordenadores.
+
+2. LO QUE NO PUEDES HACER
+   Salvo permiso por escrito del autor, no puedes:
+   a) vender, alquilar o sublicenciar el Software, ni cobrar por él de ninguna forma;
+   b) redistribuirlo ni alojarlo para su descarga fuera de la página oficial
+      (https://github.com/nombrote/chati.ai/releases); enlazar a esa página sí puedes;
+   c) modificarlo, descompilarlo, desensamblarlo ni aplicarle ingeniería inversa, salvo cuando
+      la ley, o la licencia de un componente de terceros, lo permita expresamente;
+   d) quitar o cambiar los avisos de copyright, esta licencia o los avisos de terceros;
+   e) extraer los personajes, vídeos, imágenes, voces o textos que trae para usarlos fuera
+      del Software.
+
+3. COMPONENTES DE TERCEROS
+   El Software incluye componentes de terceros con sus propias licencias, que se detallan en
+   THIRD-PARTY-NOTICES.md. Esas licencias se aplican a esos componentes, y nada en esta
+   licencia limita los derechos que te dan.
+   Los modelos, voces y programas que el Software descarga cuando se lo pides (por ejemplo
+   Ollama y los modelos de IA) no forman parte del Software y tienen sus propias licencias.
+
+4. SERVICIOS Y CUENTAS
+   El Software puede conectarse a los servicios que elijas (proveedores de IA, WhatsApp,
+   Google, Telegram, correo y otros). Eres responsable de tener derecho a usar esas cuentas y
+   de cumplir las condiciones de cada servicio. El autor no tiene relación con esos servicios.
+
+5. CONTENIDO Y EDAD
+   El Software no añade filtros de contenido. Según el modelo y el personaje que elijas, puede
+   generar contenido para adultos. Está pensado solo para mayores de 18 años. Eres el único
+   responsable del uso que hagas de él y de lo que haga o diga en tu nombre, incluidas las
+   acciones en tu ordenador que le permitas hacer.
+
+6. SIN GARANTÍA
+   EL SOFTWARE SE ENTREGA «TAL CUAL», SIN GARANTÍA DE NINGÚN TIPO, NI EXPRESA NI IMPLÍCITA,
+   INCLUIDAS LAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN CONCRETO Y NO INFRACCIÓN. Lo que
+   dice una IA puede ser erróneo, ofensivo o dañino.
+
+7. LIMITACIÓN DE RESPONSABILIDAD
+   EN LA MEDIDA MÁXIMA QUE PERMITA LA LEY, EL AUTOR NO RESPONDE DE NINGUNA RECLAMACIÓN, DAÑO
+   U OTRA RESPONSABILIDAD (INCLUIDA LA PÉRDIDA DE DATOS, CUENTAS O BENEFICIOS) DERIVADA DEL
+   USO DEL SOFTWARE O DE LA IMPOSIBILIDAD DE USARLO.
+
+8. FIN DE LA LICENCIA
+   Esta licencia termina automáticamente si incumples sus condiciones. En ese caso debes dejar
+   de usar el Software y borrar tus copias.
+
+9. GENERAL
+   El autor puede publicar nuevas versiones con otras condiciones; esta licencia sigue
+   aplicándose a las versiones que recibiste con ella. Se rige por la ley española.

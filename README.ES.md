@@ -304,6 +304,8 @@ persona más.
 - Chati.AI **no añade filtros de contenido**. Según el modelo y el personaje que elijas puede generar
   contenido para adultos: **solo para mayores de 18 años**. Eres responsable del uso que hagas de
   ella, de los modelos que cargues y de las cuentas que conectes.
+- **Licencia**: uso gratuito, personal o profesional, según la [licencia de Chati.AI](LICENSE). Incluye
+  componentes de código abierto con sus propias licencias: ver [avisos de terceros](THIRD-PARTY-NOTICES.md).
 
 ---
 

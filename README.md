@@ -306,6 +306,8 @@ She is not a chat locked inside a window: she can have her own accounts and talk
 - Chati.AI **adds no content filters**. Depending on the model and the character you choose it can
   produce adult content: **18+ only**. You are responsible for how you use it, for the models you
   load and for the accounts you connect.
+- **License**: free to use, personal or professional, under the [Chati.AI license](LICENSE). It includes
+  open-source components under their own licenses: see [third-party notices](THIRD-PARTY-NOTICES.md).
 
 ---
 
