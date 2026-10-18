@@ -9,17 +9,19 @@
 </p>
 
 <p align="center">
-  Gets things done for you: browses, codes, manages your files and runs commands · Talks to you on video call · Sees and hears you<br>
-  Has her own WhatsApp and her own phone number · No added censorship<br>
-  Models on your PC or in the cloud, even several free accounts chained together: when one runs out of credits, she jumps to the next
+  Not a chatbot with a picture next to it: a real agent that <b>talks to you, gestures and gets emotional</b>,<br>
+  has her own personality and <b>gets the work done</b>: she browses, codes, handles your files and uses tools.<br>
+  She can have <b>her own WhatsApp</b> and pick up your video calls. With models on your PC or in the cloud.
 </p>
 
 <p align="center">
   <a href="https://github.com/nombrote/chati.ai/releases/latest"><img src="https://img.shields.io/badge/⬇_Download-latest_release-7c4dff?style=for-the-badge" alt="Download"></a>
   &nbsp;
+  <a href="https://youtu.be/vuDk57mIgTc"><img src="https://img.shields.io/badge/▶_Watch-her_in_action-ff0033?style=for-the-badge" alt="Watch the video"></a>
+  &nbsp;
   <img src="https://img.shields.io/badge/Windows-10_·_11-0078d4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
   &nbsp;
-  <img src="https://img.shields.io/badge/Setup-open_and_go-2ea44f?style=for-the-badge" alt="Open and go">
+  <img src="https://img.shields.io/badge/Setup-guided_wizard-2ea44f?style=for-the-badge" alt="Guided setup">
   &nbsp;
   <a href="README.ES.md"><img src="https://img.shields.io/badge/🇪🇸_Léelo-en_español-e0e0e0?style=for-the-badge" alt="En español"></a>
 </p>
@@ -28,15 +30,32 @@
   <img src="docs/captura_principal.png" width="860" alt="Chati.AI: video call on the left, chat on the right">
 </p>
 
-<p align="center"><i>Not a chat with a picture next to it. An agent that works for you, and who also looks at you, answers, laughs and, if you cross the line, gets mad.</i></p>
+<p align="center"><i>She looks at you, answers, laughs and, if you cross the line, gets mad. And while you chat, she does your errands.</i></p>
+
+---
+
+## See Chati.AI in Action
 
 <p align="center">
-  🌍 <b>Multilingual</b>: she talks to you in your language · 🎭 <b>Several avatars</b>, male and female, with more on the way, some of them uncensored
+  <a href="https://youtu.be/vuDk57mIgTc"><img src="docs/video_cara.png" width="720" alt="Video: face, voice and emotions"></a><br>
+  <b>🎭 Face, voice and emotions</b><br>
+  <sub>Lena chatting with you and showing what she feels.</sub>
 </p>
 
-<p align="center">
-  <img src="docs/aspecto.png" width="560" alt="Appearance picker: light wave, Lena, Marc and more">
-</p>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://youtu.be/gvGvxeBvuuc"><img src="docs/video_agente.png" alt="Video: an agent that works for you"></a><br>
+      <b>🧰 An agent that works for you</b><br>
+      <sub>She takes on real tasks on your computer.</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://youtu.be/MG_ookbJMFQ"><img src="docs/video_whatsapp.png" alt="Video: WhatsApp video calls"></a><br>
+      <b>📱 WhatsApp video calls</b><br>
+      <sub>Call her from your phone and she picks up, with her face and her voice.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -45,19 +64,15 @@
 | | |
 |---|---|
 | 🧰 **She's an agent** | Browses the web, reads and writes files, runs commands, makes plans, uses skills and MCP servers. With permission cards or in auto mode. |
-| 🎭 **She has a face** | Real video stitched by emotion. She smiles, gets surprised, winks, gets angry. When you're not typing, she stays alive. |
-| 🎙️ **A voice and ears** | Speaks and listens on your PC, no internet needed. You can interrupt her by talking. |
-| 👀 **She sees you** | Share your webcam or your screen and she comments on what she sees. Video calls with her from the window, on WhatsApp or on Meet. |
+| 🎭 **She has a face** | Real video stitched by emotion: she smiles, gets surprised, winks, gets angry. Several avatars, male and female, with more on the way, some of them uncensored. |
+| 🎙️ **Real-time voice** | Speaks and listens on your PC, no internet needed. You can interrupt her by talking. |
+| 👀 **She sees you** | Share your webcam or your screen and she comments on what she sees. |
 | 📱 **A phone** | Her own WhatsApp account, her own number with a SIM, Google Meet video calls, Telegram and email. |
+| 🌍 **Multilingual** | The app in 8 languages, and she answers in yours. |
 | 🖥️ **Local or cloud** | Ollama, LM Studio, llama.cpp, your ChatGPT account, Gemini, Groq, Cerebras, Mistral, OpenRouter… |
 | 🔁 **Free, all day** | Several free accounts: when one runs out of quota, she switches to the next one by herself. |
 | 🔀 **Model router** | A free model for chatting and another one, paid or free, for coding. She switches by herself depending on what you ask. |
 | 🔓 **No added censorship** | What she says depends only on the model and the persona you choose. Nobody in between. |
-| ⚡ **Open and go** | A one-minute installer with a wizard. Everything she needs is inside. |
-
----
-
-## What it looks like
 
 <table>
   <tr>
@@ -67,21 +82,21 @@
       <sub>Video clips by emotion, with seamless cross-fades. If you go quiet for a while, she speaks first.</sub>
     </td>
     <td width="50%" align="center">
-      <img src="docs/whatsapp.png" alt="WhatsApp video call"><br>
+      <img src="docs/whatsapp.png" alt="WhatsApp chat"><br>
       <b>She picks up on WhatsApp</b><br>
-      <sub>With her own number. She chats, sends photos and voice notes, and answers voice and video calls with her face and her voice.</sub>
+      <sub>With her own number. She chats, sends photos and voice notes, and answers voice and video calls.</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/agente.png" alt="Chati browsing and editing files"><br>
+      <img src="docs/agente.png" alt="Tools menu"><br>
       <b>She gets things done</b><br>
       <sub>Searches the web with a real browser, edits files, runs commands, and shows you a card before touching anything.</sub>
     </td>
     <td align="center">
       <img src="docs/programador.png" alt="Programmer mode in purple"><br>
       <b>A router that picks the model</b><br>
-      <sub>A cheap or free one for chatting and a powerful one for coding. It steps in only when code is involved and she comes back when you change the subject.</sub>
+      <sub>A cheap or free one for chatting and a powerful one for coding. It steps in only when code is involved.</sub>
     </td>
   </tr>
   <tr>
@@ -91,28 +106,44 @@
       <sub>Your webcam or your screen. "Tell me when the download finishes."</sub>
     </td>
     <td align="center">
-      <img src="docs/servidores.png" alt="Servers and accounts list"><br>
+      <img src="docs/servidores.png" alt="Models and accounts menu"><br>
       <b>Your models, your accounts</b><br>
-      <sub>Switch models without losing the conversation. Several keys per provider, in order, with automatic failover.</sub>
+      <sub>Switch models without losing the conversation. Several accounts per provider, with automatic failover.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="docs/aspecto.png" width="480" alt="Appearance picker: light wave, Lena, Marc and more"><br>
+      <b>Choose who you talk to</b><br>
+      <sub>Lena, Marc or the light wave, and soon more. Each character is just a folder: add your own.</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## Install: open and go
+## Install
 
-1. **Download** the installer from the [latest release](https://github.com/nombrote/chati.ai/releases/latest).
-2. **Follow the wizard**: folder, character and voice. Nothing else to install.
-3. **Pick a model** from the button in the top bar:
-   - **Free, in one minute**: *Gemini* or *Groq*, paste a free key and you're done.
-   - **With your ChatGPT**: sign in with the account you already have. No API billing.
-   - **Everything on your PC**: install [Ollama](https://ollama.com) or [LM Studio](https://lmstudio.ai), download a model and Chati.AI finds it by herself.
+1. **Download** the installer from the [latest release](https://github.com/nombrote/chati.ai/releases/latest) and run it.
+2. **The wizard sets everything up** the first time you open her:
+   - **Language**: Spanish, English, French, German, Portuguese, Russian, Polish or Chinese.
+   - **Her brain**:
+     - *On your PC*: she checks your graphics card memory and RAM and recommends the largest model that
+       fits. Tick *Install and configure automatically* and she installs Ollama, downloads the model and
+       checks that it answers.
+     - *On the internet*: sign in with your ChatGPT account or paste a key from a provider.
+   - **Look and voice**: Lena, Marc or the light wave, and a voice you can listen to before choosing.
+     Only the voice you pick is downloaded.
+   - **Ready**: from there you can go straight to connecting WhatsApp, Telegram and the rest.
+3. **Start talking.** Type `/help` in the chat to see the commands.
 
-Type `/help` in the chat to see the commands.
+You can open the wizard again at any time from the menu. Prefer to set things up by hand? Use the model
+button in the top bar: free keys for *Gemini* or *Groq*, your ChatGPT account, or your own
+[Ollama](https://ollama.com), [LM Studio](https://lmstudio.ai) or llama.cpp, which she finds by herself.
 
-> **Requirements:** Windows 10 or 11, 64-bit. For local models a graphics card helps a lot
-> (12 GB runs 12-14B models comfortably). With cloud models any PC will do.
+> **Requirements:** Windows 10 or 11, 64-bit. For local models, a graphics card with at least 5 GB
+> (9 GB for the 12B model); the smallest ones can also run on the processor if you have enough RAM.
+> With cloud models any PC will do.
 
 ---
 
@@ -210,7 +241,7 @@ She is not a chat locked inside a window: she can have her own accounts and talk
 
 | On your PC (private, offline) | In the cloud |
 |---|---|
-| **Ollama** | **ChatGPT with your account**: the subscription you already pay, no API |
+| **Ollama**: the wizard can install it and download the recommended model for you | **ChatGPT with your account**: the subscription you already pay, no API |
 | **LM Studio** | **Gemini** (AI Studio, free tier) |
 | **llama.cpp**: the app starts the server itself with your `.gguf` files, vision models included | **Groq**, **Cerebras**, **Mistral**, **OpenRouter**, all with free models |
 | Any OpenAI-compatible server | OpenAI API or any other compatible one |
@@ -271,6 +302,10 @@ She is not a chat locked inside a window: she can have her own accounts and talk
 
 ---
 
+## Support the project
+
+Chati.AI is made with love and far too many late nights. If she makes your day better, you can buy me a coffee.
+
 <p align="center">
-  <sub>Made with love and far too many late nights. If it makes your day better, <a href="https://paypal.me/nombrote">buy me a coffee</a> ☕</sub>
+  <a href="https://paypal.me/nombrote"><img src="https://img.shields.io/badge/☕_Buy_me_a_coffee-PayPal-00457c?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate with PayPal"></a>
 </p>
