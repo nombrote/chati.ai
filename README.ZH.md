@@ -132,10 +132,22 @@
 |:-:|:-:|:-:|
 | [**Chati.AI-win-x64.zip**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-win-x64.zip) | [**Chati.AI-linux-x64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-linux-x64.tar.gz) | [**Chati.AI-osx-arm64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-osx-arm64.tar.gz) |
 | 解压后打开 `ChatiAI.exe` | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`cd Chati.AI-linux-x64`<br>`./install.sh` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
+| [🛡️ VirusTotal](https://www.virustotal.com/gui/file/9774cfa397aec7893f4e231bb1a7bb96cd41b2f5130a67ed14ff742b258f617c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/7cb46827e8c7f90fa1168525de67bd21df8be0df71bfe8f1b1d6af7c063ca28c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/20bb69bfaeb256b401775b3d2f85e4f4f05ea5e44f86f5666dae92fcf6f2661f) |
 
 <sub>🐧 在 Linux 上，`install.sh` 会把 Chati.AI 加入应用菜单和桌面并启动它。如果缺少声音库（libjack），它会自动安装，并请你输入一次密码。</sub>
 
 <sub>所有版本也都在[发布页面](https://github.com/nombrote/chati.ai/releases/latest)上。应用暂时还没有签名：如果 Windows 弹出 SmartScreen 警告，点击 *更多信息 › 仍要运行*；如果 macOS 打不开，运行一次 `xattr -dr com.apple.quarantine Chati.AI-osx-arm64` 即可。</sub>
+
+<details>
+<summary><sub>SHA-256 校验值（v1.0.0）</sub></summary>
+
+```
+9774cfa397aec7893f4e231bb1a7bb96cd41b2f5130a67ed14ff742b258f617c  Chati.AI-win-x64.zip
+7cb46827e8c7f90fa1168525de67bd21df8be0df71bfe8f1b1d6af7c063ca28c  Chati.AI-linux-x64.tar.gz
+20bb69bfaeb256b401775b3d2f85e4f4f05ea5e44f86f5666dae92fcf6f2661f  Chati.AI-osx-arm64.tar.gz
+```
+
+</details>
 
 1. **下载**适合你系统的文件，按上面的方法打开。无需安装：她需要的一切都在
    里面。

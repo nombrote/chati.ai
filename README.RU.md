@@ -132,10 +132,22 @@
 |:-:|:-:|:-:|
 | [**Chati.AI-win-x64.zip**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-win-x64.zip) | [**Chati.AI-linux-x64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-linux-x64.tar.gz) | [**Chati.AI-osx-arm64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-osx-arm64.tar.gz) |
 | Распакуй и открой `ChatiAI.exe` | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`cd Chati.AI-linux-x64`<br>`./install.sh` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
+| [🛡️ VirusTotal](https://www.virustotal.com/gui/file/9774cfa397aec7893f4e231bb1a7bb96cd41b2f5130a67ed14ff742b258f617c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/7cb46827e8c7f90fa1168525de67bd21df8be0df71bfe8f1b1d6af7c063ca28c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/20bb69bfaeb256b401775b3d2f85e4f4f05ea5e44f86f5666dae92fcf6f2661f) |
 
 <sub>🐧 В Linux `install.sh` добавляет Chati.AI в меню приложений и на рабочий стол и запускает её. Если нет звуковой библиотеки (libjack), он её установит и один раз спросит пароль.</sub>
 
 <sub>Все версии есть и на [странице релизов](https://github.com/nombrote/chati.ai/releases/latest). Приложение пока не подписано: если Windows покажет предупреждение SmartScreen, нажми *Подробнее › Выполнить в любом случае*; если macOS не даёт его открыть, один раз выполни `xattr -dr com.apple.quarantine Chati.AI-osx-arm64`.</sub>
+
+<details>
+<summary><sub>Контрольные суммы SHA-256 (v1.0.0)</sub></summary>
+
+```
+9774cfa397aec7893f4e231bb1a7bb96cd41b2f5130a67ed14ff742b258f617c  Chati.AI-win-x64.zip
+7cb46827e8c7f90fa1168525de67bd21df8be0df71bfe8f1b1d6af7c063ca28c  Chati.AI-linux-x64.tar.gz
+20bb69bfaeb256b401775b3d2f85e4f4f05ea5e44f86f5666dae92fcf6f2661f  Chati.AI-osx-arm64.tar.gz
+```
+
+</details>
 
 1. **Скачай** файл для своей системы и открой его, как показано выше. Ничего устанавливать не нужно: всё, что
    ей нужно, уже внутри.
