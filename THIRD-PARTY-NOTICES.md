@@ -25,10 +25,9 @@ Versions refer to Chati.AI 1.0.0.
 
 | Component | Version | License | Source |
 |---|---|---|---|
-| Emgu CV | 4.12.0.5764 | GPL-3.0 (dual licensed: GPL v3 or commercial) | https://www.emgu.com/ |
-| OpenCV (inside Emgu CV) | 4.12 | Apache-2.0 | https://github.com/opencv/opencv |
-| FFmpeg (opencv_videoio_ffmpeg) | — | LGPL-2.1-or-later | https://ffmpeg.org/ |
-| libusb (Windows) | 1.0 | LGPL-2.1-or-later | https://github.com/libusb/libusb |
+| OpenCvSharp4 and its native runtimes (OpenCvSharpExtern) | 4.13.0.20260627 | Apache-2.0 | https://github.com/shimat/opencvsharp |
+| OpenCV (inside OpenCvSharpExtern) | 4.13 | Apache-2.0. Its bundled third-party libraries (such as Intel IPP ICV) keep their own permissive licenses | https://github.com/opencv/opencv · https://github.com/opencv/opencv/tree/4.x/3rdparty |
+| FFmpeg (Windows: `opencv_videoio_ffmpeg4130_64.dll`; Linux and macOS: inside `libOpenCvSharpExtern`) | 4.4 (Windows), 7.1 (Linux), 8.0 (macOS) | LGPL-2.1-or-later. Source code: https://ffmpeg.org/download.html. The library that contains it can be replaced with your own build | https://ffmpeg.org/ |
 | SixLabors.Fonts | 1.0.0 | Apache-2.0 | https://github.com/SixLabors/Fonts |
 | RBush | 4.0.0 | MIT | https://github.com/viceroypenguin/RBush |
 
