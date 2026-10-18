@@ -321,9 +321,9 @@ Ce n'est pas une discussion enfermée dans une fenêtre : elle peut avoir ses pr
 - Avec un modèle local, **rien ne sort de ton PC** : ni le texte, ni la voix, ni l'image.
   Les conversations, souvenirs, clés et réglages sont stockés sur ta machine.
 - Avec un fournisseur dans le cloud, ce que tu écris part chez ce fournisseur, selon ses propres conditions.
-- Chati.AI **n'ajoute aucun filtre de contenu**. Selon le modèle et le personnage que tu choisis, elle peut
-  produire du contenu pour adultes : **réservé aux plus de 18 ans**. Tu es responsable de l'usage que tu en fais, des modèles que tu
-  charges et des comptes que tu connectes.
+- **Sans censure** : Chati.AI répond à tous les types de questions, sans filtre ajouté : ce qu'elle dit
+  dépend uniquement du modèle et du personnage que tu choisis. Avec des modèles non censurés, elle ne
+  se retient sur rien. C'est toi qui décides comment tu l'utilises.
 - **Licence** : utilisation gratuite, personnelle ou professionnelle, selon la [licence Chati.AI](LICENSE) (en anglais). Elle inclut
   des composants open source sous leurs propres licences : voir les [mentions des tiers](THIRD-PARTY-NOTICES.md) (en anglais).
 

@@ -321,9 +321,9 @@ Nie jest czatem zamkniętym w okienku: może mieć własne konta i rozmawiać z 
 - Z modelem lokalnym **nic nie opuszcza twojego komputera**: ani tekst, ani głos, ani obraz.
   Rozmowy, wspomnienia, klucze i ustawienia są zapisane na twoim komputerze.
 - U dostawcy w chmurze to, co piszesz, trafia do tego dostawcy na jego własnych warunkach.
-- Chati.AI **nie dodaje filtrów treści**. Zależnie od modelu i postaci, które wybierzesz, może
-  generować treści dla dorosłych: **tylko 18+**. Ty odpowiadasz za to, jak z niej korzystasz, za modele, które
-  ładujesz, i za konta, które podłączasz.
+- **Bez cenzury**: Chati.AI odpowiada na pytania każdego rodzaju, bez dodatkowych filtrów: to, co
+  mówi, zależy tylko od modelu i postaci, które wybierzesz. Z modelami bez cenzury niczego nie owija
+  w bawełnę. Ty decydujesz, jak z niej korzystasz.
 - **Licencja**: darmowe użycie, prywatne lub zawodowe, na [licencji Chati.AI](LICENSE) (po angielsku). Zawiera
   komponenty open source na ich własnych licencjach: zobacz [informacje o stronach trzecich](THIRD-PARTY-NOTICES.md) (po angielsku).
 

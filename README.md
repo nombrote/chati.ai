@@ -321,9 +321,9 @@ She is not a chat locked inside a window: she can have her own accounts and talk
 - With a local model **nothing leaves your PC**: not the text, not the voice, not the image.
   Conversations, memories, keys and settings are stored on your machine.
 - With a cloud provider, what you type goes to that provider under its own terms.
-- Chati.AI **adds no content filters**. Depending on the model and the character you choose it can
-  produce adult content: **18+ only**. You are responsible for how you use it, for the models you
-  load and for the accounts you connect.
+- **Uncensored**: Chati.AI answers any kind of question, with no added filters: what she says depends
+  only on the model and the character you choose. With uncensored models, she holds nothing back.
+  You decide how you use her.
 - **License**: free to use, personal or professional, under the [Chati.AI license](LICENSE). It includes
   open-source components under their own licenses: see [third-party notices](THIRD-PARTY-NOTICES.md).
 
