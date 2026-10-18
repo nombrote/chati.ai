@@ -1,0 +1,39 @@
+# Publica la web (carpeta website/) en GitHub Pages: https://nombrote.github.io/chati.ai/
+# Las imágenes no se duplican: se copian de docs/ al montar la página.
+name: Web
+
+on:
+  push:
+    branches: [main]
+    paths: ["website/**", "docs/**", ".github/workflows/web.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Montar la web
+        run: |
+          mkdir _site
+          cp -r website/. _site/
+          cp -r docs _site/docs
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: despliegue
+        uses: actions/deploy-pages@v4

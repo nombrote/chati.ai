@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chati.AI: an AI agent with a face, a voice, a phone and hands</title>
+  <meta name="description" content="Chati.AI is a free desktop AI agent that talks, gestures and shows emotions, browses, codes, handles your files, has her own WhatsApp and answers video calls. Local or cloud models. Windows, Linux and macOS.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chati.AI: an AI agent with a face, a voice, a phone and hands">
+  <meta property="og:description" content="Not a chatbot with a picture next to it: a real agent that talks to you, gestures, gets emotional and gets the work done. Free for Windows, Linux and macOS.">
+  <meta property="og:image" content="https://nombrote.github.io/chati.ai/docs/captura_principal.png">
+  <meta property="og:url" content="https://nombrote.github.io/chati.ai/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0b0d14">
+  <link rel="icon" type="image/png" href="docs/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top"><img src="docs/logo.png" alt="" width="34" height="34"><span>Chati.AI</span></a>
+    <nav class="links">
+      <a href="#demos" data-i18n="nav.demos">Demos</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#install" data-i18n="nav.install">Install</a>
+      <a href="#support" data-i18n="nav.support">Support</a>
+    </nav>
+    <div class="nav-right">
+      <select id="lang" aria-label="Language">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="README.FR.md">Français</option>
+        <option value="README.DE.md">Deutsch</option>
+        <option value="README.PT-BR.md">Português (Brasil)</option>
+        <option value="README.RU.md">Русский</option>
+        <option value="README.PL.md">Polski</option>
+        <option value="README.ZH.md">简体中文</option>
+      </select>
+      <a class="btn btn-ghost btn-sm" href="https://github.com/nombrote/chati.ai" aria-label="GitHub">
+        <svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <span class="hide-sm">GitHub</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Presentación -->
+  <section class="hero">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="wrap hero-in">
+      <img class="hero-logo" src="docs/logo.png" alt="Chati.AI" width="96" height="96">
+      <p class="pill"><span class="dot"></span><span data-i18n="hero.pill">Free · Windows · Linux · macOS</span> <span class="ver" id="ver"></span></p>
+      <h1 data-i18n="hero.title">An AI agent with a face, a voice, a phone and hands. <span class="grad">On your PC.</span></h1>
+      <p class="lead" data-i18n="hero.lead">Not a chatbot with a picture next to it: a real agent that <b>talks to you, gestures and gets emotional</b>, has her own personality and <b>gets the work done</b>. She browses, codes, handles your files and uses tools. She can have <b>her own WhatsApp</b> and pick up your video calls. With models on your PC or in the cloud.</p>
+      <div class="cta">
+        <a class="btn btn-primary" id="dl-main" href="https://github.com/nombrote/chati.ai/releases/latest">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a1 1 0 011 1v9.59l3.3-3.3a1 1 0 111.4 1.42l-5 5a1 1 0 01-1.4 0l-5-5a1 1 0 111.4-1.42l3.3 3.3V4a1 1 0 011-1zM5 19h14a1 1 0 110 2H5a1 1 0 110-2z"/></svg>
+          <span id="dl-main-text" data-i18n="hero.download">Download</span>
+        </a>
+        <a class="btn btn-ghost" href="#demos">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M8 5.14v13.72a1 1 0 001.52.85l11-6.86a1 1 0 000-1.7l-11-6.86A1 1 0 008 5.14z"/></svg>
+          <span data-i18n="hero.watch">Watch her in action</span>
+        </a>
+      </div>
+      <p class="small muted"><a href="#install" data-i18n="hero.other">Other systems and install steps</a></p>
+      <div class="shot">
+        <img src="docs/captura_principal.png" width="1593" height="737" alt="Chati.AI: video call on the left, chat on the right" data-i18n-alt="hero.alt">
+      </div>
+      <p class="quote" data-i18n="hero.quote">She looks at you, answers, laughs and, if you cross the line, gets mad. And while you chat, she does your errands.</p>
+    </div>
+  </section>
+
+  <!-- Vídeos -->
+  <section id="demos" class="sec">
+    <div class="wrap">
+      <h2 data-i18n="demos.title">See Chati.AI in action</h2>
+      <div class="video-main">
+        <button class="yt" data-id="vuDk57mIgTc" aria-label="Play video">
+          <img src="docs/video_cara.png" alt="" loading="lazy">
+        </button>
+        <div class="video-cap">
+          <h3 data-i18n="demos.v1">🎭 Face, voice and emotions</h3>
+          <p data-i18n="demos.v1d">Lena chatting with you and showing what she feels.</p>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="video-card">
+          <button class="yt" data-id="gvGvxeBvuuc" aria-label="Play video"><img src="docs/video_agente.png" alt="" loading="lazy"></button>
+          <h3 data-i18n="demos.v2">🧰 An agent that works for you</h3>
+          <p data-i18n="demos.v2d">She takes on real tasks on your computer.</p>
+        </div>
+        <div class="video-card">
+          <button class="yt" data-id="MG_ookbJMFQ" aria-label="Play video"><img src="docs/video_whatsapp.png" alt="" loading="lazy"></button>
+          <h3 data-i18n="demos.v3">📱 WhatsApp video calls</h3>
+          <p data-i18n="demos.v3d">Call her from your phone and she picks up, with her face and her voice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Funcionalidades -->
+  <section id="features" class="sec alt">
+    <div class="wrap">
+      <h2 data-i18n="feat.title">What makes her different</h2>
+      <div class="cards">
+        <article class="card"><div class="ico">🧰</div><h3 data-i18n="f1">She's an agent</h3><p data-i18n="f1d">Browses the web, reads and writes files, runs commands, makes plans, uses skills and MCP servers. With permission cards or in auto mode.</p></article>
+        <article class="card"><div class="ico">🎭</div><h3 data-i18n="f2">She has a face</h3><p data-i18n="f2d">Real video stitched by emotion: she smiles, gets surprised, winks, gets angry. Several avatars, male and female, with more on the way.</p></article>
+        <article class="card"><div class="ico">🎙️</div><h3 data-i18n="f3">Real-time voice</h3><p data-i18n="f3d">Speaks and listens on your PC, no internet needed. You can interrupt her by talking.</p></article>
+        <article class="card"><div class="ico">👀</div><h3 data-i18n="f4">She sees you</h3><p data-i18n="f4d">Share your webcam or your screen and she comments on what she sees.</p></article>
+        <article class="card"><div class="ico">📱</div><h3 data-i18n="f5">A phone</h3><p data-i18n="f5d">Her own WhatsApp account, her own number with a SIM, Google Meet video calls, Telegram and email.</p></article>
+        <article class="card"><div class="ico">🌍</div><h3 data-i18n="f6">Multilingual</h3><p data-i18n="f6d">The app in 8 languages, and she answers in yours.</p></article>
+        <article class="card"><div class="ico">🖥️</div><h3 data-i18n="f7">Local or cloud</h3><p data-i18n="f7d">Ollama, LM Studio, llama.cpp, your ChatGPT account, Gemini, Groq, Cerebras, Mistral, OpenRouter…</p></article>
+        <article class="card"><div class="ico">🔁</div><h3 data-i18n="f8">Free, all day</h3><p data-i18n="f8d">Several free accounts: when one runs out of quota, she switches to the next one by herself.</p></article>
+        <article class="card"><div class="ico">🔀</div><h3 data-i18n="f9">Model router</h3><p data-i18n="f9d">A free model for chatting and another one, paid or free, for coding. She switches by herself depending on what you ask.</p></article>
+        <article class="card"><div class="ico">🔓</div><h3 data-i18n="f10">No added censorship</h3><p data-i18n="f10d">What she says depends only on the model and the persona you choose. Nobody in between.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Capturas -->
+  <section class="sec">
+    <div class="wrap">
+      <h2 data-i18n="gal.title">A closer look</h2>
+      <div class="gallery">
+        <figure><img src="docs/gestos.png" alt="" loading="lazy"><figcaption><b data-i18n="g1">She reacts to what she says</b><span data-i18n="g1d">Video clips by emotion, with seamless cross-fades. If you go quiet for a while, she speaks first.</span></figcaption></figure>
+        <figure><img src="docs/whatsapp.png" alt="" loading="lazy"><figcaption><b data-i18n="g2">She picks up on WhatsApp</b><span data-i18n="g2d">With her own number. She chats, sends photos and voice notes, and answers voice and video calls.</span></figcaption></figure>
+        <figure><img src="docs/agente.png" alt="" loading="lazy"><figcaption><b data-i18n="g3">She gets things done</b><span data-i18n="g3d">Searches the web with a real browser, edits files, runs commands, and shows you a card before touching anything.</span></figcaption></figure>
+        <figure><img src="docs/programador.png" alt="" loading="lazy"><figcaption><b data-i18n="g4">A router that picks the model</b><span data-i18n="g4d">A cheap or free one for chatting and a powerful one for coding. It steps in only when code is involved.</span></figcaption></figure>
+        <figure><img src="docs/pantalla.png" alt="" loading="lazy"><figcaption><b data-i18n="g5">She sees what you show her</b><span data-i18n="g5d">Your webcam or your screen. “Tell me when the download finishes.”</span></figcaption></figure>
+        <figure><img src="docs/servidores.png" alt="" loading="lazy"><figcaption><b data-i18n="g6">Your models, your accounts</b><span data-i18n="g6d">Switch models without losing the conversation. Several accounts per provider, with automatic failover.</span></figcaption></figure>
+      </div>
+      <figure class="wide">
+        <img src="docs/aspecto.png" alt="" loading="lazy">
+        <figcaption><b data-i18n="g7">Choose who you talk to</b><span data-i18n="g7d">Lena, Marc or the light wave, and soon more, some of them uncensored. Each character is just a folder: add your own.</span></figcaption>
+      </figure>
+      <p class="center"><a class="link" href="https://github.com/nombrote/chati.ai#everything-she-does" data-i18n="gal.more">See the full feature list on GitHub →</a></p>
+    </div>
+  </section>
+
+  <!-- Instalar -->
+  <section id="install" class="sec alt">
+    <div class="wrap">
+      <h2 data-i18n="inst.title">Install</h2>
+      <p class="sub" data-i18n="inst.sub">Nothing to install by hand: download, open, and a wizard sets everything up.</p>
+      <div class="dl">
+        <a class="dl-card" data-os="win" href="https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-win-x64.zip">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M3 5.5l7.5-1v7H3v-6zm8.5-1.2L21 3v8.5h-9.5V4.3zM3 12.5h7.5v7L3 18.5v-6zm8.5 0H21V21l-9.5-1.3v-7.2z"/></svg>
+          <b>Windows</b><span>10 · 11 (64-bit)</span><code>Chati.AI-win-x64.zip</code><small class="size" data-file="Chati.AI-win-x64.zip"></small>
+        </a>
+        <a class="dl-card" data-os="linux" href="https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-linux-x64.tar.gz">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M12 2c-2.2 0-3.6 1.9-3.6 4.4 0 1.4.3 2.3-.6 3.6-1 1.5-2.6 3.4-2.6 6 0 .9.2 1.6.5 2.2-.8.4-1.7 1-1.7 1.8 0 1.2 2.1 1.6 3.4 1.9 1 .2 1.8.1 2.5-.3.6.3 1.3.4 2.1.4s1.5-.1 2.1-.4c.7.4 1.5.5 2.5.3 1.3-.3 3.4-.7 3.4-1.9 0-.8-.9-1.4-1.7-1.8.3-.6.5-1.3.5-2.2 0-2.6-1.6-4.5-2.6-6-.9-1.3-.6-2.2-.6-3.6C15.6 3.9 14.2 2 12 2zm-1.4 4.2c.4 0 .7.5.7 1.1s-.3 1.1-.7 1.1-.7-.5-.7-1.1.3-1.1.7-1.1zm2.8 0c.4 0 .7.5.7 1.1s-.3 1.1-.7 1.1-.7-.5-.7-1.1.3-1.1.7-1.1zM12 9.3c.9 0 2 .6 2 1 0 .5-1.1 1.2-2 1.2s-2-.7-2-1.2c0-.4 1.1-1 2-1z"/></svg>
+          <b>Linux</b><span>64-bit</span><code>Chati.AI-linux-x64.tar.gz</code><small class="size" data-file="Chati.AI-linux-x64.tar.gz"></small>
+        </a>
+        <a class="dl-card" data-os="mac" href="https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-osx-arm64.tar.gz">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.6-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 2.9-.4 7.3 1.2 9.7.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.5-1-2.5-3.9zM14 5.5c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg>
+          <b>macOS</b><span data-i18n="inst.mac">Apple Silicon (M1 or newer)</span><code>Chati.AI-osx-arm64.tar.gz</code><small class="size" data-file="Chati.AI-osx-arm64.tar.gz"></small>
+        </a>
+      </div>
+      <div class="steps">
+        <div class="step"><span class="n">1</span><div><h3 data-i18n="s1">Open it</h3><p data-i18n="s1d"><b>Windows:</b> unzip and open <code>ChatiAI.exe</code>. <b>Linux / macOS:</b> <code>tar xzf</code> the file and run <code>./ChatiAI</code> inside the folder.</p></div></div>
+        <div class="step"><span class="n">2</span><div><h3 data-i18n="s2">Let the wizard set her up</h3><p data-i18n="s2d">Pick your language; she checks your graphics card memory and RAM and recommends the largest local model that fits, installing Ollama and the model for you. Or sign in with ChatGPT or paste a key from a cloud provider. Then choose her look and voice.</p></div></div>
+        <div class="step"><span class="n">3</span><div><h3 data-i18n="s3">Start talking</h3><p data-i18n="s3d">Type <code>/help</code> in the chat to see the commands. You can open the wizard again any time from the menu.</p></div></div>
+      </div>
+      <div class="note">
+        <p data-i18n="inst.req"><b>Requirements:</b> for local models, a graphics card with at least 5 GB (9 GB for the 12B model); the smallest ones also run on the processor if you have enough RAM. With cloud models any PC will do.</p>
+        <p data-i18n="inst.sign"><b>Not signed yet:</b> if Windows shows a SmartScreen warning, click <i>More info › Run anyway</i>. If macOS won't open it, run <code>xattr -dr com.apple.quarantine Chati.AI-osx-arm64</code> once.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacidad -->
+  <section class="sec">
+    <div class="wrap privacy">
+      <div>
+        <h2 data-i18n="priv.title">Private by default</h2>
+        <p data-i18n="priv.p1">With a local model <b>nothing leaves your PC</b>: not the text, not the voice, not the image. Conversations, memories, keys and settings stay on your machine. With a cloud provider, what you type goes to that provider under its own terms.</p>
+      </div>
+      <div class="warn">
+        <h3 data-i18n="priv.adult">18+ only</h3>
+        <p data-i18n="priv.p2">Chati.AI adds no content filters. Depending on the model and the character you choose, it can produce adult content. You are responsible for how you use it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Apoyo -->
+  <section id="support" class="sec support">
+    <div class="wrap center">
+      <h2 data-i18n="sup.title">Support the project</h2>
+      <p class="sub" data-i18n="sup.p">Chati.AI is free and made with love and far too many late nights. If she makes your day better, you can buy me a coffee.</p>
+      <a class="btn btn-paypal" href="https://paypal.me/nombrote">☕ <span data-i18n="sup.btn">Buy me a coffee with PayPal</span></a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div class="brand"><img src="docs/logo.png" alt="" width="26" height="26"><span>Chati.AI</span></div>
+    <nav>
+      <a href="https://github.com/nombrote/chati.ai">GitHub</a>
+      <a href="https://github.com/nombrote/chati.ai/releases" data-i18n="foot.rel">Releases</a>
+      <a href="https://github.com/nombrote/chati.ai/blob/main/LICENSE" data-i18n="foot.lic">License</a>
+      <a href="https://github.com/nombrote/chati.ai/blob/main/THIRD-PARTY-NOTICES.md" data-i18n="foot.tp">Third-party notices</a>
+      <a href="https://github.com/nombrote/chati.ai/issues" data-i18n="foot.issues">Report a problem</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
