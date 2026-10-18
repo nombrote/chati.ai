@@ -131,7 +131,9 @@
 | 🪟 Windows | 🐧 Linux | 🍎 macOS (Apple Silicon) |
 |:-:|:-:|:-:|
 | [**Chati.AI-win-x64.zip**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-win-x64.zip) | [**Chati.AI-linux-x64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-linux-x64.tar.gz) | [**Chati.AI-osx-arm64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-osx-arm64.tar.gz) |
-| 解压后打开 `ChatiAI.exe` | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`./Chati.AI-linux-x64/ChatiAI` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
+| 解压后打开 `ChatiAI.exe` | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`cd Chati.AI-linux-x64`<br>`./install.sh` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
+
+<sub>🐧 在 Linux 上，`install.sh` 会把 Chati.AI 加入应用菜单和桌面并启动它。如果缺少声音库（libjack），它会自动安装，并请你输入一次密码。</sub>
 
 <sub>所有版本也都在[发布页面](https://github.com/nombrote/chati.ai/releases/latest)上。应用暂时还没有签名：如果 Windows 弹出 SmartScreen 警告，点击 *更多信息 › 仍要运行*；如果 macOS 打不开，运行一次 `xattr -dr com.apple.quarantine Chati.AI-osx-arm64` 即可。</sub>
 

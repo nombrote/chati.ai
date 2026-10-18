@@ -131,7 +131,9 @@
 | 🪟 Windows | 🐧 Linux | 🍎 macOS (Apple Silicon) |
 |:-:|:-:|:-:|
 | [**Chati.AI-win-x64.zip**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-win-x64.zip) | [**Chati.AI-linux-x64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-linux-x64.tar.gz) | [**Chati.AI-osx-arm64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-osx-arm64.tar.gz) |
-| Entpacken und `ChatiAI.exe` öffnen | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`./Chati.AI-linux-x64/ChatiAI` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
+| Entpacken und `ChatiAI.exe` öffnen | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`cd Chati.AI-linux-x64`<br>`./install.sh` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
+
+<sub>🐧 Unter Linux legt `install.sh` Chati.AI ins Anwendungsmenü und auf den Desktop und startet sie. Fehlt die Audiobibliothek (libjack), installiert es sie und fragt dafür einmal nach deinem Passwort.</sub>
 
 <sub>Alle Versionen findest du auch auf der [Release-Seite](https://github.com/nombrote/chati.ai/releases/latest). Die App ist noch nicht signiert: Wenn Windows eine SmartScreen-Warnung zeigt, klick auf *Weitere Informationen › Trotzdem ausführen*; wenn macOS sie nicht öffnen will, führ einmal `xattr -dr com.apple.quarantine Chati.AI-osx-arm64` aus.</sub>
 
