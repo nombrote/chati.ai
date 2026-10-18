@@ -17,6 +17,8 @@
 <p align="center">
   <a href="https://github.com/nombrote/chati.ai/releases/latest"><img src="https://img.shields.io/badge/⬇_Download-latest_release-7c4dff?style=for-the-badge" alt="Download"></a>
   &nbsp;
+  <a href="https://nombrote.github.io/chati.ai/"><img src="https://img.shields.io/badge/🌐_Website-0ea5e9?style=for-the-badge" alt="Website"></a>
+  &nbsp;
   <a href="https://youtu.be/vuDk57mIgTc"><img src="https://img.shields.io/badge/▶_Watch-her_in_action-ff0033?style=for-the-badge" alt="Watch the video"></a>
   &nbsp;
   <img src="https://img.shields.io/badge/Windows_·_Linux_·_macOS-64--bit-0078d4?style=for-the-badge" alt="Windows, Linux and macOS">
