@@ -22,8 +22,10 @@
   <img src="https://img.shields.io/badge/Windows_·_Linux_·_macOS-64--bit-0078d4?style=for-the-badge" alt="Windows, Linux and macOS">
   &nbsp;
   <img src="https://img.shields.io/badge/Setup-guided_wizard-2ea44f?style=for-the-badge" alt="Guided setup">
-  &nbsp;
-  <a href="README.ES.md"><img src="https://img.shields.io/badge/🇪🇸_Léelo-en_español-e0e0e0?style=for-the-badge" alt="En español"></a>
+</p>
+
+<p align="center">
+  🌍 <b>English</b> · <a href="README.ES.md">Español</a> · <a href="README.FR.md">Français</a> · <a href="README.DE.md">Deutsch</a> · <a href="README.PT-BR.md">Português (Brasil)</a> · <a href="README.RU.md">Русский</a> · <a href="README.PL.md">Polski</a> · <a href="README.ZH.md">简体中文</a>
 </p>
 
 <p align="center">
@@ -134,7 +136,7 @@
 1. **Download** the file for your system and open it as shown above. Nothing to install: everything she
    needs is inside.
 2. **The wizard sets everything up** the first time you open her:
-   - **Language**: Spanish, English, French, German, Portuguese, Russian, Polish or Chinese.
+   - **Language**: English, Spanish, French, German, Portuguese (Brazil), Russian, Polish or Simplified Chinese.
    - **Her brain**:
      - *On your PC*: she checks your graphics card memory and RAM and recommends the largest model that
        fits. Tick *Install and configure automatically* and she installs Ollama, downloads the model and
@@ -288,7 +290,7 @@ She is not a chat locked inside a window: she can have her own accounts and talk
 |---|---|
 | `/help` | Help and command list |
 | `/new` | New chat, choosing who with |
-| `/screen` | Shows her your screen (`/screen todas`, all screens) |
+| `/screen` | Shows her your screen (`/screen all`, all screens) |
 | `/programa` | Hands over to the coder (`/programa fix this…` sends it straight to it) |
 | `/chati` | Brings her back |
 | `/compact` | Summarizes the conversation to free memory |

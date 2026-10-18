@@ -22,8 +22,10 @@
   <img src="https://img.shields.io/badge/Windows_·_Linux_·_macOS-64_bits-0078d4?style=for-the-badge" alt="Windows, Linux y macOS">
   &nbsp;
   <img src="https://img.shields.io/badge/Instalación-con_asistente-2ea44f?style=for-the-badge" alt="Instalación con asistente">
-  &nbsp;
-  <a href="README.md"><img src="https://img.shields.io/badge/🇬🇧_Read_it-in_English-e0e0e0?style=for-the-badge" alt="In English"></a>
+</p>
+
+<p align="center">
+  🌍 <a href="README.md">English</a> · <b>Español</b> · <a href="README.FR.md">Français</a> · <a href="README.DE.md">Deutsch</a> · <a href="README.PT-BR.md">Português (Brasil)</a> · <a href="README.RU.md">Русский</a> · <a href="README.PL.md">Polski</a> · <a href="README.ZH.md">简体中文</a>
 </p>
 
 <p align="center">
@@ -134,7 +136,7 @@
 1. **Descarga** el archivo de tu sistema y ábrelo como pone arriba. No hay que instalar nada: todo lo
    que necesita va dentro.
 2. **El asistente lo prepara todo** la primera vez que la abres:
-   - **Idioma**: español, inglés, francés, alemán, portugués, ruso, polaco o chino.
+   - **Idioma**: español, inglés, francés, alemán, portugués (de Brasil), ruso, polaco o chino simplificado.
    - **Su cerebro**:
      - *En tu ordenador*: mira la memoria de tu tarjeta gráfica y tu RAM y te recomienda el modelo
        más grande que cabe. Marca *Instalar y configurar automáticamente* y ella instala Ollama, baja
