@@ -132,19 +132,19 @@
 |:-:|:-:|:-:|
 | [**Chati.AI-win-x64.zip**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-win-x64.zip) | [**Chati.AI-linux-x64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-linux-x64.tar.gz) | [**Chati.AI-osx-arm64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-osx-arm64.tar.gz) |
 | Rozpakuj i otwórz `ChatiAI.exe` | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`cd Chati.AI-linux-x64`<br>`./install.sh` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
-| [🛡️ VirusTotal](https://www.virustotal.com/gui/file/9774cfa397aec7893f4e231bb1a7bb96cd41b2f5130a67ed14ff742b258f617c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/7cb46827e8c7f90fa1168525de67bd21df8be0df71bfe8f1b1d6af7c063ca28c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/20bb69bfaeb256b401775b3d2f85e4f4f05ea5e44f86f5666dae92fcf6f2661f) |
+| [🛡️ VirusTotal](https://www.virustotal.com/gui/file/5851547fc1df37ec64354b4709ea48a6c7a12d4c534895bf7e6a542e00d6533c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/ff85675033c26f20931358c6b33e8808b8de6ffbcd6496f58415764ce842f70e) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/57be7f4d675e6428ad0694388202e326b36650d7350ecc3361448f39f71e52a6) |
 
 <sub>🐧 W Linuksie `install.sh` dodaje Chati.AI do menu aplikacji i na pulpit, a potem ją uruchamia. Jeśli brakuje biblioteki dźwięku (libjack), instaluje ją i raz prosi o hasło.</sub>
 
 <sub>Wszystkie wersje znajdziesz też na [stronie wydań](https://github.com/nombrote/chati.ai/releases/latest). Aplikacja nie jest jeszcze podpisana: jeśli Windows pokaże ostrzeżenie SmartScreen, kliknij *Więcej informacji › Uruchom mimo to*; jeśli macOS nie chce jej otworzyć, wykonaj raz `xattr -dr com.apple.quarantine Chati.AI-osx-arm64`.</sub>
 
 <details>
-<summary><sub>Sumy kontrolne SHA-256 (v1.0.0)</sub></summary>
+<summary><sub>Sumy kontrolne SHA-256 (v1.1.0)</sub></summary>
 
 ```
-9774cfa397aec7893f4e231bb1a7bb96cd41b2f5130a67ed14ff742b258f617c  Chati.AI-win-x64.zip
-7cb46827e8c7f90fa1168525de67bd21df8be0df71bfe8f1b1d6af7c063ca28c  Chati.AI-linux-x64.tar.gz
-20bb69bfaeb256b401775b3d2f85e4f4f05ea5e44f86f5666dae92fcf6f2661f  Chati.AI-osx-arm64.tar.gz
+5851547fc1df37ec64354b4709ea48a6c7a12d4c534895bf7e6a542e00d6533c  Chati.AI-win-x64.zip
+ff85675033c26f20931358c6b33e8808b8de6ffbcd6496f58415764ce842f70e  Chati.AI-linux-x64.tar.gz
+57be7f4d675e6428ad0694388202e326b36650d7350ecc3361448f39f71e52a6  Chati.AI-osx-arm64.tar.gz
 ```
 
 </details>
@@ -238,6 +238,11 @@ Nie jest czatem zamkniętym w okienku: może mieć własne konta i rozmawiać z 
   Działają formaty Claude, Codex, Cursor i skills.sh. Albo poproś ją o nowy: ma w zestawie
   skill do tworzenia skilli.
 - **Serwery MCP**: dodaj dowolny serwer po adresie URL i włączaj lub wyłączaj jego narzędzia jednym kliknięciem.
+- **Narzędzia sieciowe**: łączy się z innymi komputerami przez SSH i z telefonami z Androidem przez ADB,
+  znajduje urządzenia w twojej sieci i robi diagnostykę (ping, DNS, otwarte porty, TLS…). Z kartami
+  uprawnień, jak pozostałe narzędzia.
+- **Subagenci**: przekazuje części zadania wyspecjalizowanym subagentom, także programistyczne, żeby
+  lepiej organizować i kończyć długie zadania.
 - **Router modeli**: nie musisz płacić za drogi model do wszystkiego. Ustaw darmowy albo lekki model
   do rozmowy i mocniejszy, płatny albo darmowy, do programowania. Router decyduje przy każdej wiadomości:
   gdy to, o co prosisz, dotyczy kodu, sama przekazuje sprawę programiście i wraca, gdy

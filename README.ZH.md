@@ -132,19 +132,19 @@
 |:-:|:-:|:-:|
 | [**Chati.AI-win-x64.zip**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-win-x64.zip) | [**Chati.AI-linux-x64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-linux-x64.tar.gz) | [**Chati.AI-osx-arm64.tar.gz**](https://github.com/nombrote/chati.ai/releases/latest/download/Chati.AI-osx-arm64.tar.gz) |
 | 解压后打开 `ChatiAI.exe` | `tar xzf Chati.AI-linux-x64.tar.gz`<br>`cd Chati.AI-linux-x64`<br>`./install.sh` | `tar xzf Chati.AI-osx-arm64.tar.gz`<br>`./Chati.AI-osx-arm64/ChatiAI` |
-| [🛡️ VirusTotal](https://www.virustotal.com/gui/file/9774cfa397aec7893f4e231bb1a7bb96cd41b2f5130a67ed14ff742b258f617c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/7cb46827e8c7f90fa1168525de67bd21df8be0df71bfe8f1b1d6af7c063ca28c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/20bb69bfaeb256b401775b3d2f85e4f4f05ea5e44f86f5666dae92fcf6f2661f) |
+| [🛡️ VirusTotal](https://www.virustotal.com/gui/file/5851547fc1df37ec64354b4709ea48a6c7a12d4c534895bf7e6a542e00d6533c) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/ff85675033c26f20931358c6b33e8808b8de6ffbcd6496f58415764ce842f70e) | [🛡️ VirusTotal](https://www.virustotal.com/gui/file/57be7f4d675e6428ad0694388202e326b36650d7350ecc3361448f39f71e52a6) |
 
 <sub>🐧 在 Linux 上，`install.sh` 会把 Chati.AI 加入应用菜单和桌面并启动它。如果缺少声音库（libjack），它会自动安装，并请你输入一次密码。</sub>
 
 <sub>所有版本也都在[发布页面](https://github.com/nombrote/chati.ai/releases/latest)上。应用暂时还没有签名：如果 Windows 弹出 SmartScreen 警告，点击 *更多信息 › 仍要运行*；如果 macOS 打不开，运行一次 `xattr -dr com.apple.quarantine Chati.AI-osx-arm64` 即可。</sub>
 
 <details>
-<summary><sub>SHA-256 校验值（v1.0.0）</sub></summary>
+<summary><sub>SHA-256 校验值（v1.1.0）</sub></summary>
 
 ```
-9774cfa397aec7893f4e231bb1a7bb96cd41b2f5130a67ed14ff742b258f617c  Chati.AI-win-x64.zip
-7cb46827e8c7f90fa1168525de67bd21df8be0df71bfe8f1b1d6af7c063ca28c  Chati.AI-linux-x64.tar.gz
-20bb69bfaeb256b401775b3d2f85e4f4f05ea5e44f86f5666dae92fcf6f2661f  Chati.AI-osx-arm64.tar.gz
+5851547fc1df37ec64354b4709ea48a6c7a12d4c534895bf7e6a542e00d6533c  Chati.AI-win-x64.zip
+ff85675033c26f20931358c6b33e8808b8de6ffbcd6496f58415764ce842f70e  Chati.AI-linux-x64.tar.gz
+57be7f4d675e6428ad0694388202e326b36650d7350ecc3361448f39f71e52a6  Chati.AI-osx-arm64.tar.gz
 ```
 
 </details>
@@ -238,6 +238,9 @@
   Claude、Codex、Cursor 和 skills.sh 格式都支持。或者让她自己做一个新的：她自带一个
   用来创建技能的技能。
 - **MCP 服务器**：通过 URL 添加任意服务器，一键开关它的工具。
+- **网络工具**：通过 SSH 连接其他电脑，通过 ADB 连接安卓手机，发现你网络里的设备并进行诊断
+  （ping、DNS、开放端口、TLS……）。和其他工具一样，会先弹出权限卡片。
+- **子智能体**：她会把任务的一部分交给专门的子智能体，包括编程任务，更好地组织和完成长任务。
 - **模型路由**：没必要什么都用昂贵的模型。聊天设一个免费或轻量的模型，
   写代码设一个更强的（付费或免费）。每条消息都由路由器来决定：
   你的要求涉及代码时，她会自己转给程序员，你换话题时

@@ -1,15 +1,15 @@
 {
-  "version": "1.0.0",
-  "fecha": "2026-10-18",
+  "version": "1.1.0",
+  "fecha": "2026-10-25",
   "descarga": "https://github.com/nombrote/chati.ai/releases/latest",
   "novedades": {
-    "es": "Primera versión de Chati.AI.",
-    "en": "First release of Chati.AI.",
-    "fr": "Première version de Chati.AI.",
-    "de": "Erste Version von Chati.AI.",
-    "pt": "Primeira versão do Chati.AI.",
-    "ru": "Первая версия Chati.AI.",
-    "pl": "Pierwsza wersja Chati.AI.",
-    "zh": "Chati.AI 的第一个版本。"
+    "es": "Herramientas de red: SSH, ADB, descubrir equipos y diagnósticos.\nSubagentes: reparte tareas, también las de programación.",
+    "en": "Network tools: SSH, ADB, device discovery and diagnostics.\nSubagents: she delegates tasks, coding included.",
+    "fr": "Outils réseau : SSH, ADB, découverte d'appareils et diagnostics.\nSous-agents : elle délègue des tâches, programmation comprise.",
+    "de": "Netzwerk-Tools: SSH, ADB, Geräteerkennung und Diagnose.\nSubagenten: Sie verteilt Aufgaben, auch Programmieraufgaben.",
+    "pt": "Ferramentas de rede: SSH, ADB, descoberta de dispositivos e diagnósticos.\nSubagentes: ela delega tarefas, inclusive de programação.",
+    "ru": "Сетевые инструменты: SSH, ADB, поиск устройств и диагностика.\nСубагенты: она поручает задачи, в том числе программирование.",
+    "pl": "Narzędzia sieciowe: SSH, ADB, wykrywanie urządzeń i diagnostyka.\nSubagenci: deleguje zadania, także programistyczne.",
+    "zh": "网络工具：SSH、ADB、设备发现和诊断。\n子智能体：她会分派任务，包括编程任务。"
   }
 }
